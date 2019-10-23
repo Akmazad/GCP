@@ -1,6 +1,15 @@
 # GCP - Creating Computing Resources
 Documentation and resources for creating the necessary computing resources needed to run Deep learning models on Google Cloud Platform (GCP). 
+
+* [Key Background Information](#key-background-information)
+* [Creating a GCP Project](#creating-a-gcp-project)
+* [Creating a Virtual Machine (VM) instance](#creating-a-virtual-machine-vm-instance)
+* [Creating GCP Storage Buckets](#creating-gcp-storage-buckets)
+
 <br />
+
+---
+
 ### Key Background Information
 GCP allows users to utilise their high-performance machines to run, train and deploy (for production) data-heavy models, whether they are a Machine learning, a Deep learning or a computationally expensive system. Such resources include:
   - **CPUs**
@@ -12,6 +21,7 @@ In addition to computing power, GCP offers storage capacities to cater for diffe
   <img src="../doc/img/gcp_storage.PNG" width="1200" height="400" />
   <br /><br />
   An advantage to using GCP's storage facilities, is the smooth integration of GCP's services. For example, when opting to store training data for a deep learning model on GCP Storage, multiple computing resources on GCP can connect to it via the g-suite API service which allows for importing and exporting to/from these resources data efficiently (as opposed to using local machines with slow I/O operations, building custom scripts or using additional 3rd part applications to transfer and connect data to VM instances over the net). Generally, <b>Storing large data, that needs to be utilised by GPC services, on GCP Storage is <i>recommended</i>...</b>
+---
 
 ### Creating a GCP Project
 Assuming a GCP account has been activated, the first step is to create a GCP project. This is to allow a user to utilise the services GCP provides. Normally, this is created on an individual <i>project</i> basis, as GCP projects are distinct in their resources. This means that all the services created within a GCP project are unique to it and cannot be easily accessed by other GCP projects.<br /><br />
@@ -34,8 +44,10 @@ So, to create a project:
   <br /><br />
   <img src="../doc/img/project_create4.PNG"/>
   <br /><br />
+---
 
 ### Creating a Virtual Machine (VM) instance
+
 Now that we have a GCP project set-up, we can start allocating computing resources to it. These are basically machines that can be created "on-the-fly" which can be utilised for our intended uses.</br></br>
 Primarily, this resource will be our preferable choice to run deep learning projects on as they are <b>easy</b> to create/maintain/access/modify/delete, relatively <b>cheap</b> to run in comparison to other GCP services. Creating one is an easy process:<br /><br />
   * Using the left-hand navigation menu, select <b>"Compute Engine"</b> -> <b>"VM Instances"</b> 
