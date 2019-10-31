@@ -27,3 +27,36 @@ The gcloud command-line tool provides an SCP file transfer utility, creating an 
 
 1. Install and Setup Google Cloud SDK.
 
+2.Once you have installed Google Cloud SDK you can use the gsutil or gcloud command to transfer the files using gsutil cp command.
+
+3.Open terminal in your local computer and configure the project you wish to use. Run the following command to set up gcloud
+
+##### 2. gcloud command
+
+###### Google Cloud Storage to Google Compute Engine
+
+gsutil cp gs://bucket_name/filename /home/username/folder_name
+
+###### Google Compute Engine to Google Cloud Storage
+
+gsutil cp filename gs://bucket_name
+
+###### Google Cloud Storage to the local computer
+
+gsutil -m cp -r gs://bucket_name/folder dir
+
+###### Local computer to Google Cloud Storage
+
+gsutil -m cp -r dir gs://bucket_name/folder
+
+###### From one instance to another
+
+gcloud compute scp FILE_NAME --project TARGET_PROJECT_ID TARGET_INSTANCE_NAME:folder_name --zone region
+
+###### Upload/Download using SSH
+
+To download or upload a file using SSH click the SSH button next to your VM Instance to open a terminal in your web browser.
+
+
+
+To download or upload a file using SSH click the SSH button next to your VM Instance to open a terminal in your web browser.
