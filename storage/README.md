@@ -41,13 +41,13 @@ gsutil -m cp -r gs://bucket_name/folder dir
 gsutil -m cp -r dir gs://bucket_name/folder
 
 
-#### 2.from instance to instance
+### 2.from instance to instance
 
 ###### From one instance to another
 gcloud compute scp FILE_NAME --project TARGET_PROJECT_ID TARGET_INSTANCE_NAME:folder_name --zone region
 
 
-#### 3.from instance to storage
+### 3.from instance to storage
 
 ###### Google Cloud Storage to Google Compute Engine
 gsutil cp gs://bucket_name/filename /home/username/folder_name
