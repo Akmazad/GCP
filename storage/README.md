@@ -22,7 +22,11 @@ Please refer here:https://cloud.google.com/compute/docs/gcloud-compute/
 ###### Upload/Download using SSH
 To download or upload a file using SSH click the SSH button next to your VM Instance to open a terminal in your web browser.
 Click the top right gear icon in your terminal window to upload or download a file directly. This method will be very slow compared to the above all process.
-
+    <br /><br />
+    <img src="../doc/img/bucket_0001.png"/>
+    <img src="../doc/img/bucket_0002.png"/>
+    <br /><br />
+    
 #### terminal command
 ##### you need to installl gcloud command-line tool/gsutil
 Transferring files using the gcloud command-line tool
