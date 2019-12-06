@@ -38,6 +38,8 @@ The gcloud command-line tool provides an SCP file transfer utility, creating an 
 3.Open terminal in your local computer and configure the project you wish to use. Run the following command to set up gcloud
 Please refer https://cloud.google.com/storage/docs/gsutil_install#deb to get the instructions of how to install gsutil
 
+[![Watch The Video](../doc/img/bucket_0003.png)](https://www.youtube.com/watch?v=EdNWgZ4cOWo)
+
 ###### Google Cloud Storage to the local computer
 gsutil -m cp -r gs://bucket_name/folder dir
 
