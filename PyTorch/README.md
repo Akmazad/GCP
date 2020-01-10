@@ -55,3 +55,22 @@ in your /home/haroldsoh/.bashrc ?
 To make use of Anaconda right away, source your bashrc:
 
 source ~/.bashrc
+
+Now, install other softwares through terminal :
+pip install tensorflow
+pip install keras
+
+#### Step 7 : Set up the VM server
+Open up a SSH session to your VM. Check if you have a Jupyter configuration file:
+ls ~/.jupyter/jupyter_notebook_config.py
+If it doesn’t exist, create one:
+jupyter notebook --generate-config
+
+We’re going to add a few lines to your Jupyter configuration file; the file is plain text so, you can do this via your favorite editor (e.g., vim, emacs). Make sure you replace the port number with the one you allowed firewall access to in step 5.
+
+c = get_config()
+c.NotebookApp.ip = '*'
+c.NotebookApp.open_browser = False
+c.NotebookApp.port = 5000
+
+It should look something like this :
