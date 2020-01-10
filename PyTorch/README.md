@@ -124,3 +124,16 @@ where, external ip address is the ip address which we made static and port numbe
 <br /><br />
     
 #### Congratulations! You successfully installed jupyter notebook on GCP!
+
+### Next Install PyTorch via pip through Terminal
+
+To install PyTorch via pip, use one of the following two commands, depending on your Python version:
+
+#### Python 3.x
+pip3 install torch torchvision
+#### Python 2.x
+pip install torch torchvision
+<br /><br />
+    <img src="../PyTorch/img/pytorch17.png"/>
+<br /><br />
+
