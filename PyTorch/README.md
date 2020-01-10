@@ -16,19 +16,29 @@ Click on the three lines on the upper left corner, then on the compute option, c
 <br /><br />
 
 Now click on ‘Create new instance’. Name your instance, select zone as ‘ us-west1-b’. Choose your ‘machine type’. (I chose 8v CPUs).
-Select your boot disk as ‘Ubuntu 16.04 LTS’. Under the firewall options tick both ‘http’ and ‘https’ (very important). Then, choose the disk tab and untick ‘ Delete boot disk when instance is deleted’.
+Select your boot disk as ‘Ubuntu 16.04 LTS’. 
+<br /><br />
+    <img src="../PyTorch/img/pytorch5.png"/>
+<br /><br />
 
-
+Under the firewall options tick both ‘http’ and ‘https’ (very important). Then, choose the disk tab and untick ‘ Delete boot disk when instance is deleted’.
+<br /><br />
+    <img src="../PyTorch/img/pytorch7.png"/>
+<br /><br />
 
 If you click on ‘customize’, you will be able to find options for using GPUs. You can choose between 2 NVIDIA GPUs.
-
+<br /><br />
+    <img src="../PyTorch/img/pytorch9.png"/>
+<br /><br />
 
 Now click on ‘Create’ and your instance is ready!
 
 
 #### Step 3 : Make external IP address as static
 By default, the external IP address is dynamic and we need to make it static to make our life easier. Click on the three horizontal lines on top left and then under networking, click on VPC network and then External IP addresses.
-
+<br /><br />
+    <img src="../PyTorch/img/pytorch1.png"/>
+<br /><br />
 
 Change the type from Ephemeral to Static.
 
