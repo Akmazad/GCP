@@ -5,7 +5,9 @@
 
 #### Step 1 : Create a new project
 Click on the three dots shown in the image below and then click on the + sign to create a new project.
-
+ <br /><br />
+    <img src="../img/pytorch1.png"/>
+<br /><br />
 
 #### Step 2 : Create a VM instance
 Click on the three lines on the upper left corner, then on the compute option, click on ‘Compute Engine’
