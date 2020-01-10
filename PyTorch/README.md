@@ -5,13 +5,15 @@
 
 #### Step 1 : Create a new project
 Click on the three dots shown in the image below and then click on the + sign to create a new project.
- <br /><br />
-    <img src="../PyTorch/img/pytorch1.png"/>
+<br /><br />
+    <img src="../PyTorch/img/pytorch12.png"/>
 <br /><br />
 
 #### Step 2 : Create a VM instance
 Click on the three lines on the upper left corner, then on the compute option, click on ‘Compute Engine’
-
+<br /><br />
+    <img src="../PyTorch/img/pytorch3.png"/>
+<br /><br />
 
 Now click on ‘Create new instance’. Name your instance, select zone as ‘ us-west1-b’. Choose your ‘machine type’. (I chose 8v CPUs).
 Select your boot disk as ‘Ubuntu 16.04 LTS’. Under the firewall options tick both ‘http’ and ‘https’ (very important). Then, choose the disk tab and untick ‘ Delete boot disk when instance is deleted’.
