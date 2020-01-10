@@ -6,7 +6,7 @@
 #### Step 1 : Create a new project
 Click on the three dots shown in the image below and then click on the + sign to create a new project.
  <br /><br />
-    <img src="../img/pytorch1.png"/>
+    <img src="//img/pytorch1.png"/>
 <br /><br />
 
 #### Step 2 : Create a VM instance
