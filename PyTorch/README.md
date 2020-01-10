@@ -6,7 +6,7 @@
 ##### 2.select the first one which name is "Deep Learning VM"
 ##### 3.configure the instance 
 
-##### 4.you need to wait for few minutes, the system need time to cogifg
+##### 4.you need to wait for few minutes, the system need time to config
 
 ##### 5.when the configuration finish, you will find the "Suggested next steps" in the right side, which give you some instruction of how to upload files to this Deep Learning VM.
 
